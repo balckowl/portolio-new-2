@@ -4,7 +4,7 @@ import Image from "next/image"
 const Hero = async () => {
 
     return (
-        <div className="h-[650px] sm:h-[500px] bg-[#eee]">
+        <div className="h-[650px] sm:h-[500px] bg-muted">
             <div className="container flex justify-center h-full items-center">
                 <div className="w-full sm:w-[80%] flex flex-col sm:flex-row items-center">
                     <div className="sm:w-1/2 space-y-4 order-2 sm:order-1">
@@ -14,7 +14,7 @@ const Hero = async () => {
                         <Button>はじめる</Button>
                     </div>
                     <div className="w-4/5 sm:w-1/2 order-1 sm:order-2">
-                        <Image src="/images/home/hero.png" width={500} height={500} alt="hero" />
+                        <Image src="/images/home/hero2.png" width={500} height={500} alt="hero" />
                     </div>
                 </div>
             </div>
